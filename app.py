@@ -38,7 +38,7 @@ def get_correlation():
                 "p_value": float(p_value),
             }
         })
-    return "Wrong request, please try again."
+    return "Wrong request, please try again. code 404"
 
 
 @app.route('/post/calculate', methods=['POST'])
